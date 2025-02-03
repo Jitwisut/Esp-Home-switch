@@ -27,9 +27,9 @@ homekit_accessory_t *accessories[] = {
     HOMEKIT_ACCESSORY(.id=1, .category=homekit_accessory_category_door_lock, .services=(homekit_service_t*[]) {
         HOMEKIT_SERVICE(ACCESSORY_INFORMATION, .characteristics=(homekit_characteristic_t*[]) {
             HOMEKIT_CHARACTERISTIC(NAME, "Lock"),
-            HOMEKIT_CHARACTERISTIC(MANUFACTURER, "makesmart Community"),
+            HOMEKIT_CHARACTERISTIC(MANUFACTURER, "Jitwisut Dev"),
             HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "1111111"),
-            HOMEKIT_CHARACTERISTIC(MODEL, "makesmart Lock"),
+            HOMEKIT_CHARACTERISTIC(MODEL, "Jitwisut Lock"),
             HOMEKIT_CHARACTERISTIC(FIRMWARE_REVISION, "1.0"),
             HOMEKIT_CHARACTERISTIC(IDENTIFY, my_accessory_identify),
             NULL

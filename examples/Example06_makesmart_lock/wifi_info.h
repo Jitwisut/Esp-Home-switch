@@ -7,18 +7,17 @@
 
 #ifndef WIFI_INFO_H_
 #define WIFI_INFO_H_
-
 #if defined(ESP8266)
 #include <ESP8266WiFi.h>
 #elif defined(ESP32)
 #include <WiFi.h>
 #endif
 
-const char *ssid = "your-ssid";
-const char *password = "your-password";
+const char *ssid = "Shaaohmm";
+const char *password = "O347781F";
+
 
 void wifi_connect() {
-  WiFi.persistent(false);
   WiFi.mode(WIFI_STA);
   WiFi.setAutoReconnect(true);
   WiFi.begin(ssid, password);
