@@ -33,3 +33,6 @@
 
 # Others
 .DS_STORE
+
+# Per-device Wi-Fi and HiveMQ credentials.
+examples/Example02_Switch/wifi_info.local.h
